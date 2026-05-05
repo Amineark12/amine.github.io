@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    background: #f0f0f0;
+    padding: 25px;
+    border-bottom: 2px solid #bbb;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img {
+    height: 45px;
+    width: auto;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.slogan {
+    margin: 5px 0 10px 0;
+    font-size: 14px;
+    color: #444;
+    font-style: italic;
+}
+
+.info {
+    font-size: 13px;
+    color: #555;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* FORMULARI */
+form {
+    width: 60%;
+    margin: 20px auto;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 40px;
+    padding: 25px;
+    background: #1e1e1e;
+    color: #e6e6e6;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-section {
+    margin-bottom: 15px;
+}
+
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.social-links a {
+    margin: 0 8px;
+    color: #66b3ff;
+    text-decoration: none;
+}
+
+.footer a {
+    color: #66b3ff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
