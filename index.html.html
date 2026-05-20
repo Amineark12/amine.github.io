@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>TechMaster BCN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSINOcGTfkkTmsnY_T6kq0MwYSG6tEGZJyvohK_kqjmLAnTF0fQE5ief-uJ4OA&s"
+             alt="Logo TechMaster BCN"
+             class="logo-img">
+        <h1>TechMaster BCN</h1>
+    </div>
+
+    <p class="slogan">Solucions ràpides, manteniment segur.</p>
+
+    <div class="info">
+        <p>Carrer del Servei Tècnic 15, 08025 Barcelona</p>
+        <p>NIF: Z4567891Q · Tel: 622 998 441 · suport@techmasterbcn.com</p>
+    </div>
+
+    <nav class="menu">
+        <a href="#inici">Inici</a>
+        <a href="#tarifes">Tarifes</a>
+        <a href="#quisom">Qui som</a>
+        <a href="#contacte">Contacte</a>
+        <a href="#incidencia">Envia la teva incidència</a>
+    </nav>
+</header>
+
+<section id="incidencia">
+    <h2>Envia la teva incidència</h2>
+
+    <form class="formulari">
+
+        <fieldset>
+            <legend>Dades del Client</legend>
+
+            <label>Nom complet:</label>
+            <input type="text" required>
+
+            <label>Correu electrònic:</label>
+            <input type="email" required>
+
+            <label>Telèfon:</label>
+            <input type="tel" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Identificació de l'Equip</legend>
+
+            <label>Marca i Model:</label>
+            <input type="text" required>
+
+            <label>Sistema Operatiu:</label>
+            <select required>
+                <option>Windows</option>
+                <option>Linux</option>
+                <option>macOS</option>
+            </select>
+
+            <label>Tipus d'equip:</label>
+            <select required>
+                <option>Sobretaula</option>
+                <option>Portàtil</option>
+                <option>Servidor</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Components afectats</legend>
+
+            <label><input type="checkbox"> Disc dur</label>
+            <label><input type="checkbox"> RAM</label>
+            <label><input type="checkbox"> CPU</label>
+            <label><input type="checkbox"> Targeta gràfica</label>
+            <label><input type="checkbox"> Font d'alimentació</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Descripció de l'Avaria</legend>
+
+            <label>Símptomes:</label>
+            <textarea required></textarea>
+
+            <label>Senyals acústics o errors en pantalla:</label>
+            <textarea></textarea>
+
+            <label>Darrera acció abans de l'error:</label>
+            <textarea></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Nivell d'Urgència</legend>
+
+            <label><input type="radio" name="urgencia" required> Baixa</label>
+            <label><input type="radio" name="urgencia"> Mitjana</label>
+            <label><input type="radio" name="urgencia"> Alta</label>
+            <label><input type="radio" name="urgencia"> Crítica</label>
+        </fieldset>
+
+        <button type="submit">Enviar incidència</button>
+
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="footer-section">
+        <p class="footer-title">Segueix-nos</p>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+    </div>
+
+    <div class="footer-section">
+        <p class="footer-title">Informació Legal</p>
+        <a href="#">Política de Privacitat</a> ·
+        <a href="#">Avís Legal</a>
+    </div>
+
+    <div class="footer-section">
+        <p class="footer-title">Horari d'atenció</p>
+        <p>Dilluns a divendres: 9:00 - 19:00</p>
+        <p>Dissabtes: 10:00 - 14:00</p>
+    </div>
+</footer>
+
+</body>
+</html>
